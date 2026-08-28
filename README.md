@@ -388,7 +388,12 @@ The key architectural insight is that the Third-Party Configurator pattern **doe
 
 Start with the minimal footprint: clone the default flow, replace only the component you need to change, and let `utils.js` grow into a shared library your whole team can rely on. The next time a project needs a custom configurator, you'll already have the hard part done.
 
+
+For more context on this project, read the full case study on the Folder IT blog: [Agentforce Revenue Management Configurator](https://folderit.net/agentforce-revenue-management-configurator-a-case-study): A Case Study. Folder IT is a nearshore software development company that builds Salesforce solutions like this one for US Enterprise clients.
+
 ---
+
+
 
 ## <a id="references"></a> 📚 References
 
